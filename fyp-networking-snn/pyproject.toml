@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["ngkcl <k1889573@kcl.ac.uk>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi-websocket-rpc = "^0.1.17"
+asyncio = "^3.4.3"
+fastapi = "^0.63.0"
+python-socketio = "^5.1.0"
+zerorpc = "^0.6.3"
+jsonrpc-websocket = "^3.0.0"
+jsonrpcserver = "^4.2.0"
+websockets = "^8.1"
+numpy = "^1.20.2"
+matplotlib = "^3.4.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pylint = "^2.7.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
