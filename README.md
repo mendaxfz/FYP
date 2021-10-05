@@ -11,6 +11,9 @@ Implementation of an end-to-end software and hardware based solution to simulate
 
 <img src="img/structure.png" height="400">
 
+### Simulation
 
+2D heatmap with temperatures ranging from 17-23C, with a setpoint temperature set to 20C. The worm manages to perform contour tracking(white line represents the trajectory) and navigating to the appropriate environment where it's survival chances are optimal. 
+<img src="img/simulation.png" height="400">
 
 
